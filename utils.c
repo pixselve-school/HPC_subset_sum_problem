@@ -91,3 +91,11 @@ void freeSSP(SSP *instance)
    free(instance->solution);
    free(instance->set);
 }
+
+
+// ================================================================================
+
+typedef struct {
+   double execTime;
+   int solutionFound;  // 1 if found, 0 otherwise
+} HillClimbingResult;
