@@ -22,14 +22,14 @@ fois. L'idée est qu'en explorant l'espace de recherche à partir de différents
 meilleure chance de trouver un sommet global ou du moins un sommet local plus optimal que celui trouvé lors des
 tentatives précédentes.
 
-# Comparaison entre la version classique et la version parallelisée
+# Comparaison entre la version classique et la version parallélisée
 
-Pour plusieur valeur de `n`, on execute les deux versions de l'algorithme.
+Pour plusieurs valeurs de `n`, on exécute les deux versions de l'algorithme.
 
 ![283d3abf-e41d-4b25-90a1-181373aeca69.png](.github/images/283d3abf-e41d-4b25-90a1-181373aeca69.png)
 
 <details>
-  <summary>🤔 Détail des données</summary>
+  <summary>🤔 Détail des données générées par le programme</summary>
 
 | n     | Density     | Execution Time (Regular) | Solution Found (Regular) | Execution Time (OpenMP) | Solution Found (OpenMP) |
 |-------|-------------|--------------------------|--------------------------|-------------------------|-------------------------|
