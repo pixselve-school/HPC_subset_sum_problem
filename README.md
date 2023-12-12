@@ -64,3 +64,9 @@ gestion des threads dans OpenMP.
 Ces chiffres illustrent clairement que, bien que l'approche OpenMP offre des avantages significatifs en termes de temps
 d'exécution dans la plupart des cas, l'efficacité de chaque méthode peut varier en fonction de la taille spécifique du
 problème et de la complexité de l'ensemble de données traité.
+
+## Comparaison en fixant n=500 et en variant la densité
+
+![Comparaison en fixant n=500 et en variant la densité](.github/images/1ef5947d-cb53-40dc-a87c-7d22ff799f18.png)
+
+Ce graphique illustre une comparaison intéressante entre les temps d'exécution pour deux méthodes de traitement, Regular et OpenMP, en fonction de la densité. On observe que, globalement, la méthode OpenMP montre des temps d'exécution plus courts que la méthode Regular, ce qui suggère une meilleure efficacité. Cette tendance est particulièrement évidente aux densités plus élevées. Il est important de noter que les différences de performance sont plus marquées à des densités plus faibles. Cela indique que l'optimisation apportée par OpenMP est plus efficace lorsque le système gère des tâches de moindre densité.

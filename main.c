@@ -16,5 +16,6 @@
 int main() {
  srand(666);  // Seed the random number generator
  benchmarkHillClimbing();
+ benchmarkHillClimbingDensity();
  return 0;
 }
